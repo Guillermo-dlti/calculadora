@@ -13,7 +13,7 @@
 ## History
 ![History](./images/calculadora2.jpeg)
 
-## Deleted history
+## Stitch
 ![Stitch](./images/stitch1.jpeg)
 
 ## Prototype of stitch
