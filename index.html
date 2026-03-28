@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="page">
+        <div class="top-bar">
+            <div class="tabs">
+                <a href="./index.html" class="tab active">CALCULATOR</a>
+                <a href="./history.html" class="tab">HISTORY</a>
+            </div>
+        </div>
+
+        <div class="calculator-card">
+            <div id="calculatorSection">
+                <div class="main-screen" id="screen">0</div>
+
+                <div class="buttons-grid">
+                    <button class="btn btn-clear" onclick="erase()">C</button>
+                    <button class="btn btn-operator" onclick="handleOperator('/')">/</button>
+                    <button class="btn btn-operator" onclick="handleOperator('x')">x</button>
+                    <button class="btn btn-operator" onclick="handleOperator('-')">-</button>
+
+                    <button class="btn btn-number" onclick="handleClick('7')">7</button>
+                    <button class="btn btn-number" onclick="handleClick('8')">8</button>
+                    <button class="btn btn-number" onclick="handleClick('9')">9</button>
+                    <button class="btn btn-operator" onclick="handleOperator('+')">+</button>
+
+                    <button class="btn btn-number" onclick="handleClick('4')">4</button>
+                    <button class="btn btn-number" onclick="handleClick('5')">5</button>
+                    <button class="btn btn-number" onclick="handleClick('6')">6</button>
+                    <button class="btn btn-operator" onclick="handleOperator('^')">^</button>
+
+                    <button class="btn btn-number" onclick="handleClick('1')">1</button>
+                    <button class="btn btn-number" onclick="handleClick('2')">2</button>
+                    <button class="btn btn-number" onclick="handleClick('3')">3</button>
+                    <button class="btn btn-number" onclick="handleOperator('.')">.</button>
+
+                    <button class="btn btn-number zero-btn" onclick="handleClick('0')">0</button>
+                    <button class="btn btn-equal" onclick="calculate()">=</button>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

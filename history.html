@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator History</title>
+    <link rel="stylesheet" href="./styles/history.css">
+</head>
+<body>
+    <div class="history-page">
+        <header class="top-bar">
+            <nav class="nav-tabs">
+                <a href="./index.html" class="tab">CALCULATOR</a>
+                <a href="./history.html" class="tab active">HISTORY</a>
+            </nav>
+        </header>
+
+        <main class="history-content">
+            <section class="history-header">
+                <div>
+                    <h1>Operation Archive</h1>
+                    <p>Detailed record of all technical calculations and architectural drafting metrics.</p>
+                </div>
+
+                <button class="clear-btn" onclick="clearHistory()">
+                    <span>🗑</span>
+                    <span>CLEAR ALL</span>
+                </button>
+            </section>
+
+            <section class="history-list-section">
+                <div class="section-label-row">
+                    <span class="section-label">RECORD</span>
+                    <div class="section-line"></div>
+                </div>
+
+                <div id="historyContainer" class="history-cards"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>x
