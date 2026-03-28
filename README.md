@@ -8,13 +8,13 @@
 
 
 ## Main Screen
-![Main Screen](./images/calculadora1.png)
+![Main Screen](./images/calculadora1.jpeg)
 
 ## History
-![History](./images/calculadora2.png)
+![History](./images/calculadora2.jpeg)
 
 ## Deleted history
-![Deleted history](./images/stitch1.png)
+![Stitch](./images/stitch1.jpeg)
 
 ## Prototype of stitch
-![Prototype of stitch](./images/stitch2.png)
+![Prototype of stitch](./images/stitch2.jpeg)
